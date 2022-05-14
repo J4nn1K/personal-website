@@ -20,7 +20,7 @@ export default function Home() {
         </div>
 
         {/* HERO CONTAINER */}
-        <div className="hero-content text-center flex-1 ">
+        <div className="flex flex-1 text-center items-center justify-center">
           <div className="flex flex-col items-center">
             <h1 className="text-slate-900 dark:text-white text-5xl font-black">Jannik Jorge Grothusen</h1>
             <p className="py-4 text-slate-500 dark:text-slate-400 text-xl font-normal">Making what I want since 2000.</p>
