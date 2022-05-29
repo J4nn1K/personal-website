@@ -39,9 +39,9 @@ export default function Home() {
 
         </div>
         
-        <div className="bg-zinc-900 dark:bg-white h-s>reen p-4 min-h-screen flex flex-col">
+        {/* <div className="bg-zinc-900 dark:bg-white h-s>reen p-4 min-h-screen flex flex-col">
 
-        </div>
+        </div> */}
       
       </div>
     </div>
