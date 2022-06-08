@@ -7,6 +7,8 @@ export default function Home() {
       <Head>
         <title>Jannik Jorge Grothusen</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="theme-color" content="#F5F5F5" media="(prefers-color-scheme: light)"/>
+        <meta name="theme-color" content="#0D0D0D" media="(prefers-color-scheme: dark)"/>
         {/* <link rel="shortcut icon" href="/favicon.ico" /> */}
       </Head>
       <div>
