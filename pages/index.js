@@ -15,7 +15,7 @@ export default function Home() {
         <div className="bg-gray-100 dark:bg-gray-900 h-s>reen p-4 min-h-screen flex flex-col">
           <div className="flex flex-1 text-center items-center justify-center">
             <div className="flex flex-col items-center">
-              <h1 className="text-gray-900 dark:text-gray-100 text-5xl font-extrabold">Jannik Jorge Grothusen</h1>
+              <h1 className="text-gray-900 dark:text-gray-100 text-5xl font-bold">Jannik Jorge Grothusen</h1>
               <p className="py-4 text-gray-600 dark:text-gray-400 text-xl font-normal">Making what I want since 2000.</p>
               <div className="flex space-x-4">
                 <a href="https://www.linkedin.com/in/jannikjorgegrothusen/" target="_blank" rel="noreferrer" className="text-gray-900 dark:text-gray-100">
