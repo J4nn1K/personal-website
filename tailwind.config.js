@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['Inter', 'Helvetica', 'sans-serif'],
+      sans: ['Circular', 'Helvetica', 'sans-serif']
     },
     colors: {
       gray: {
