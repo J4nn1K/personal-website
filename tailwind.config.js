@@ -1,3 +1,4 @@
+const { fontSize } = require('tailwindcss/defaultTheme')
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
@@ -22,6 +23,12 @@ module.exports = {
         800: '#2A2A2A',
         900: '#0D0D0D',
       }
+    },
+    fontSize: {
+      'base': '1rem',
+      'lg': '1.5rem',
+      'xl': '2rem',
+      '2xl': '3rem',
     }
   },
   plugins: [
