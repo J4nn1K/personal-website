@@ -9,7 +9,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['Circular', 'Helvetica', 'sans-serif']
+      sans: ['Inter', 'Helvetica', 'sans-serif']
+      // sans: ['Circular', 'Helvetica', 'sans-serif']
     },
     colors: {
       gray: {

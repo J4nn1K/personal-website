@@ -15,7 +15,7 @@ export default function Home() {
         <div className="bg-gray-100 dark:bg-gray-900 h-s>reen p-4 min-h-screen flex flex-col">
           <div className="flex flex-1 text-center items-center justify-center">
             <div className="flex flex-col items-center">
-              <h1 className="text-gray-900 dark:text-gray-100 text-xl font-black">Jannik Jorge Grothusen</h1>
+              <h1 className="text-gray-900 dark:text-gray-100 text-xl font-extrabold">Jannik Jorge Grothusen</h1>
               <p className="text-gray-600 dark:text-gray-400 text-base font-normal py-1">
                 Making what I want since 2000.
               </p>
