@@ -3,16 +3,20 @@ import '@fontsource/inter/600.css'
 import '@fontsource/inter/700.css'
 import '@fontsource/inter/800.css'
 
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
+
 import Head from 'next/head'
 import {
-  ChakraProvider, 
-  extendTheme, 
-  Box, 
-  Stack, 
-  Text, 
-  Heading, 
-  Button, 
-  Link 
+  ChakraProvider,
+  extendTheme,
+  Box,
+  Stack,
+  Text,
+  Heading,
+  Button,
+  Link,
+  Center,
+  Divider,
 } from '@chakra-ui/react'
 import { EmailIcon } from '@chakra-ui/icons'
 
@@ -22,19 +26,6 @@ const theme = extendTheme({
     heading: 'Inter, sans-serif',
     body: 'Inter, sans-serif',
   }
-  // colors = {
-  //   gray: {
-  //     100: '#F5F5F5',
-  //     200: '#D8D8D8',
-  //     300: '#BBBBBB',
-  //     400: '#9E9E9E',
-  //     500: '#818181',
-  //     600: '#646464',
-  //     700: '#474747',
-  //     800: '#2A2A2A',
-  //     900: '#0D0D0D',
-  //   }
-  // }
 })
 
 
@@ -51,23 +42,34 @@ export default function Home() {
       </Head>
 
       <ChakraProvider theme={theme}>
-        <Box m={2}>
-          <Heading>Jannik Jorge Grothusen</Heading>
-          <Stack direction='row' spacing={2}>
-            <Button leftIcon={<EmailIcon />} colorScheme='teal' variant='solid'>
-              Email
-            </Button>
-            <Button href='https://www.linkedin.com/in/jannikjorgegrothusen/' isExternal>
-              LinkedIn
-            </Button>
-            <Button href='https://github.com/J4nn1K/' isExternal>
-              GitHub
-            </Button>
-          </Stack>
+        <Center>
 
-          {/* <Link href='https://www.linkedin.com/in/jannikjorgegrothusen/' isExternal>LinkedIn</Link> */}
-          {/* <Link href='https://github.com/J4nn1K/' isExternal>GitHub</Link> */}
-        </Box>
+          <Box m={2} pt={100}>
+            <Heading>Jannik Jorge Grothusen</Heading>
+            <Text>Making what I want since 2000.</Text>
+            <Divider my={4} />
+            <Center>
+              <Stack direction='row' spacing={2}>
+                <Button as='a' target='_blank' leftIcon={<EmailIcon />} href='mailto:jannik@grothusen.de' colorScheme='teal'>
+                  Email
+                </Button>
+                <Button as='a' target='_blank' leftIcon={<FaLinkedin />} href='https://www.linkedin.com/in/jannikjorgegrothusen/'>
+                  LinkedIn
+                </Button>
+                <Button as='a' target='_blank' leftIcon={<FaGithub />} href='https://github.com/J4nn1K/'>
+                  GitHub
+                </Button>
+              </Stack>
+            </Center>
+
+            {/* <Box p={5} shadow='md' borderWidth='1px'>
+              <Heading fontSize='xl'>GoodBytz GmbH</Heading>
+              <Text mt={4}>The future can be even brighter but a goal without a plan is just a wish</Text>
+            </Box> */}
+
+          </Box>
+
+        </Center>
       </ChakraProvider>
     </div>
   )
