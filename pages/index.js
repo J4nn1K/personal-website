@@ -51,7 +51,7 @@ export default function Home() {
       </Head>
 
       <ChakraProvider theme={theme}>
-        <Flex m={8} justifyContent='center'>
+        <Flex m={4} justifyContent='center'>
           <Box maxW='3xl'>
             <Heading mt={8} mb={1} fontSize='3xl'>Jannik Jorge Grothusen</Heading>
             <Text mb={4} fontSize='sm'>
