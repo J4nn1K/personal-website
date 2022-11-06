@@ -62,9 +62,6 @@ export default function Home() {
             <Text fontSize='sm'>
               Designing holistic solutions. Passionate about engineering, entrepreneurship and graphic design.
             </Text>
-            {/* <Text>
-              Helping developers build a faster web. Teaching about web development, serverless, and React / Next.js.
-            </Text> */}
             <ButtonGroup mt={4} size='sm'>
               <Button as='a' target='_blank' leftIcon={<EmailIcon />} href='mailto:jannik@grothusen.de' color='white' background='gray.800' _hover={{ bg: 'black' }} _active={{ bg: 'black' }}>
                 {/* <Button as='a' target='_blank' leftIcon={<EmailIcon />} href='mailto:jannik@grothusen.de' colorScheme='teal'> */}
@@ -91,18 +88,11 @@ export default function Home() {
                   Software Engineering Intern
                 </Heading>
                 <UnorderedList mb='2'>
-                  <ListItem><Highlight query={['Python', 'Flask', 'MongoDB', 'Plotly Dash', 'GitHub Actions', 'Docker']} styles={{ py: '1', fontWeight: '600' }}>Build multiple microservices for monitoring using Python, Flask, MongoDB, Plotly Dash and integrated them into a CI-pipeline using GitHub Actions and Docker</Highlight></ListItem>
-                  <ListItem><Highlight query={['Kubernetes', 'K3s', 'Elastic Stack']} styles={{ py: '1', fontWeight: '600' }}>Set up and operated a Kubernetes cluster for service orchestration using K3s with Elastic Stack for log aggregation and monitoring</Highlight></ListItem>
-                  <ListItem><Highlight query={['Angular']} styles={{ py: '1', fontWeight: '600' }}>Further developed main user interface using Angular</Highlight></ListItem>
-                  <ListItem>Developed and optimized motion sequences for cobots (Universal Robots UR series)</ListItem>
+                  <ListItem>Designed motion sequences for cobots (Universal Robots UR series and Fanuc CRX series)</ListItem>
+                  <ListItem><Highlight query={['Kubernetes (K3s)']} styles={{ py: '1', fontWeight: '600' }}>Set up a lightweight Kubernetes (K3s) cluster for orchestration of microservices on IoT modules</Highlight></ListItem>
+                  <ListItem><Highlight query={['Python', 'Flask', 'REST API', 'Docker', 'GitHub Actions']} styles={{ py: '1', fontWeight: '600' }}>Developed and deployed microservices using Python, Flask, REST API, Docker and GitHub Actions CI</Highlight></ListItem>
+                  <ListItem><Highlight query={['JavaScript', 'Angular']} styles={{ py: '1', fontWeight: '600' }}>Further developed main user interface (JavaScript, Angular)</Highlight></ListItem>
                 </UnorderedList>
-                {/* <Text mb='2' noOfLines='3'>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                </Text> */}
-                {/* <Text fontWeight='bold'>Technologies:</Text><Text>Python, Flask, Angular, REST API, Git, GitHub Actions, Docker, Kubernetes</Text> */}
-                {/* <Link as='a' color='teal.400' href='#' fontWeight='bold'>
-                  Read more
-                </Link> */}
               </Box>
               <Box fontSize='sm' as='article' p='5' borderWidth='1px' rounded='md'>
                 <Box>
@@ -112,9 +102,8 @@ export default function Home() {
                   Machine Learning Intern
                 </Heading>
                 <UnorderedList>
-                  <ListItem><Highlight query={['TensorFlow Keras', 'Slurm', 'Weights & Biases']} styles={{ py: '1', fontWeight: '600' }}>Created neural networks for recognition of electron beam characteristics using TensorFlow Keras and trained on DESY's Maxwell HPC cluster using Slurm and Weights & Biases</Highlight></ListItem>
-                  <ListItem><Highlight query={['Python']} styles={{ py: '1', fontWeight: '600' }}>Implemented a Unscented Kalman Filter to determine unknown system parameters of a particle accelerator in Python</Highlight></ListItem>
-
+                  <ListItem><Highlight query={['TensorFlow', 'Keras', 'Weights & Biases', 'Slurm']} styles={{ py: '1', fontWeight: '600' }}>Developed new method for beam parameter detection with artificial neural networks using TensorFlow, Keras and Weights & Biases (trained on DESY’s Maxwell HPC using Slurm)</Highlight></ListItem>
+                  <ListItem>Implemented a state estimator to determine unknown system parameters of a particle accelerator</ListItem>
                 </UnorderedList>
               </Box>
             </Stack>
@@ -131,11 +120,8 @@ export default function Home() {
                 <UnorderedList mb='2'>
                   <ListItem>Invited by UC Berkeley's Department of Mechanical Engineering</ListItem>
                   <ListItem><Highlight query={['ISAP Scholarship']} styles={{ py: '1', fontWeight: '600' }}>Awarded a ISAP Scholarship by German Academic Exchange Service</Highlight></ListItem>
+                  <ListItem>Coursework: CS 169 (Software Engineering), CS 188 (Artificial Intelligence), ME 231 (Advanced ControlDesign I), UGBA 5 (Entrepreneurship)</ListItem>
                 </UnorderedList>
-                {/* <Text mb='3' noOfLines='3'>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                </Text> */}
-                {/* <Text fontWeight='bold'>Technologies:</Text><Text>Python, Flask, Angular, REST API, Git, GitHub Actions, Docker, Kubernetes</Text> */}
               </Box>
               <Box fontSize='sm' as='article' p='5' borderWidth='1px' rounded='md'>
                 <Box>
@@ -144,10 +130,6 @@ export default function Home() {
                 <Heading fontSize='18px' my='2'>
                   M.Sc. Mechatronics
                 </Heading>
-                {/* <Text mb='3' noOfLines='3'>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                </Text> */}
-                {/* <Text fontWeight='bold'>Technologies:</Text><Text>Python, Flask, Angular, REST API, Git, GitHub Actions, Docker, Kubernetes</Text> */}
               </Box>
               <Box fontSize='sm' as='article' p='5' borderWidth='1px' rounded='md'>
                 <Box>
@@ -157,11 +139,10 @@ export default function Home() {
                   B.Sc. General Engineering Science
                 </Heading>
                 <UnorderedList>
-                  <ListItem><Highlight query={['mechatronics']} styles={{ py: '1', fontWeight: '600' }}>Spezialized in mechatronics</Highlight></ListItem>
-                  <ListItem><Highlight query={['ROS (Python)']} styles={{ py: '1', fontWeight: '600' }}>Developed a control architecture for autonomous grasping with an underwater robot in ROS (Python)</Highlight></ListItem>
+                  <ListItem>Standard period of study, Class rank: 15 of 75</ListItem>
+                  <ListItem>Thesis: "Motion Planning and Control for Autonomous Grasping with an Underwater Robot"</ListItem>
+                  <ListItem><Highlight query={['Python', 'ROS', 'AprilTag']} styles={{ py: '1', fontWeight: '600' }}>Developed a control architecture based on guidance using the AprilTag visual fiducial system and custom path planning and following algorithms, implemented using Python and ROS, tested on a real robot</Highlight></ListItem>
                 </UnorderedList>
-
-                {/* <Text fontWeight='bold'>Technologies:</Text><Text>Python, Flask, Angular, REST API, Git, GitHub Actions, Docker, Kubernetes</Text> */}
               </Box>
             </Stack>
           </Box>
