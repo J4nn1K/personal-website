@@ -39,4 +39,4 @@ jobs:
         file: docker/Dockerfile
         push: true
         tags: |
-          ghcr.io/${{ env.LOWERCASEREPO }}-preview
+          ghcr.io/${{ env.LOWERCASEREPO }}-preview:pr${{ github.event.pull_request.number }}
